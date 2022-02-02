@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  background-color: indianred;
+  color: firebrick;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3em;
+  text-align: center;
+}
