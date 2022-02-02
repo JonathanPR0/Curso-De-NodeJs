@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+body {
+  background-color: #e8e8e8;
+  color: #114454;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+header,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-color: #165751;
+  padding: 15px;
+  color: #dddfeb;
+}
+header h3 {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+footer p {
+  font-size: 0.9em;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+label {
+  font-size: 1em;
+  font-weight: 400;
+}
+input {
+  margin-top: 5px;
+  display: block;
+  width: 30vw;
+  max-width: 300px;
+  font-size: 0.8em;
+  padding: 0.9em;
+  border-radius: 8px;
+  background-color: #dddfeb;
+}
+input[type='submit'] {
+  margin-top: 15px;
+  background-color: #18637b;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+/* .message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.message h1 {
+  font-size: 3em;
+}
+.message p a {
+  text-decoration: none;
+  color: #3b8d61;
+} */
