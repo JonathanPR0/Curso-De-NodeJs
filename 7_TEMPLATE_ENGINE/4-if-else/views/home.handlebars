@@ -1,0 +1,8 @@
+<h1>Quem sou?</h1>
+  <p>Olá! Meu nome é <strong>{{user.name}} {{user.lastname}}</strong>, e tenho <strong>{{user.age}}</strong> anos.</p>
+  <p>{{leroLero}}</p>
+
+  {{#if auth}}
+    <p>Você está logado, <a href="/dashboard">clique aqui</a> e veja a dashboard</p>
+  {{else}}
+  {{/if}}
